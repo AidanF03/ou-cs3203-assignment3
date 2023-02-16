@@ -1,4 +1,4 @@
-
+#Comment Number 1 - the most important comment.
 def arrSum(array):
     totalSum = 0
     for i in array:
@@ -11,9 +11,7 @@ def arrMult(array):
         totalMult *= i
     return totalMult
 
-def reverseArray(array):
-    return array[::-1]
-
+#More comments?????? What a concept
 def main():
 
     print("Input each number of your array followed by the Enter key(input END to stop inputting numbers)")
@@ -28,5 +26,6 @@ def main():
     print("Total of array elements multiplied: " + str(arrMult(arr)))
     print("Reversed array: " + str(reverseArray(arr)))
 
+#Wow, what an insane amount of comments!
 if __name__ == "__main__":
     main()
