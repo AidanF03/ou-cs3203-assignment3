@@ -26,6 +26,7 @@ def main():
     
     print("Total of array: " + str(arrSum(arr)))
     print("Total of array elements multiplied: " + str(arrMult(arr)))
+    print("Reversed array: " + str(reverseArray(arr)))
 
 if __name__ == "__main__":
     main()
