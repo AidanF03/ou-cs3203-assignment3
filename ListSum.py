@@ -11,9 +11,12 @@ def arrMult(array):
         totalMult *= i
     return totalMult
 
+def reverseArray(array):
+    return array[::-1]
+
 def main():
 
-    print("Enter each number of your array(enter END to stop entering numbers)")
+    print("Input each number of your array followed by the Enter key(input END to stop inputting numbers)")
     arr = []
     while(True):
         x = input()
